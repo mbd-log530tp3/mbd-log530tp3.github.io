@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SnakeWeb</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/Window.js"></script>
+	<script src="js/Tuple.js"></script>
+	<script src="js/KeyboardListener.js"></script>
+	<script src="js/TouchListener.js"></script>
+	<script src="js/Main.js"></script>
+	<script src="js/Snake.js"></script>
+	<script src="js/Food.js"></script>
+	<script src="js/Game.js"></script>
+</head>
+<body>
+	<div id="gameContainer" class='wrapper'>
+		<canvas id="canvas"></canvas>
+	</div>
+	<button id="buttonRestart" class='button hidden'>recommencer </button>
+	<script type="text/javascript">
+        var app = new Main();
+        app.run();
+	</script>
+</body>
+</html>
